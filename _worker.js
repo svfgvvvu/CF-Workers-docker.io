@@ -322,7 +322,7 @@ async function searchInterface() {
 			const query = document.getElementById('search-input').value;
 			if (query) {
 				window.location.href = '/search?q=' + encodeURIComponent(query);
-    console.log(`url: ${window.location.href}`)
+    console.log("url: " + window.location.href)
 			}
 		}
 	
